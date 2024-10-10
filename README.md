@@ -126,7 +126,7 @@ We seek to protect financial institutions’ customers, not their employees. We 
 (It bears mentioning that many enterprises do wish to limit screen-sharing on their employees’ devices. On Chromium-based browsers, that is already possible using enterprise policies today. Further policies may be added independently of the effort described by this document.)
 
 ### Alternative 4: Extension APIs
-As mentioned in alternative 3, we cannot expect financial institutions to force-install extensions on their customers’ devices. But could we expect them to convince their customers to do so…?
+As mentioned in [alternative 3](#alternative-3-enterprise-policies-andor-employees), we cannot expect financial institutions to force-install extensions on their customers’ devices. But could we expect them to convince their customers to do so…?
 
 The author of this document would argue that:
 Mayn users would not end up installing such an extension; possibly most of them won’t.
