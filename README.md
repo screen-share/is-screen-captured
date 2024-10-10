@@ -132,6 +132,14 @@ The author of this document would argue that:
 * Many users would not end up installing such an extension; possibly most of them won’t.
 * It would be detrimental to security on the Web, if users were taught that it’s legitimate for a website to plead with them to install an extension.
 
+### Alternative 5: Delayed signal to server, bypassing application
+Could we prevent Web applications from self-censoring using some mechanism other than an allowlist? Could we deliver the signal to the **institution** while bypassing the **Web application**? Maybe we could do this if we delivered a delayed signal that only reached the institution’s server after the Web application was unloaded?
+
+This approach faces very significant obstacles:
+* It is impossible for the user agent to truly determine when an application has been unloaded, because applications may span multiple cooperating origins. Cross-origin navigation of the top-level document between collaborating origins can fool the user agent into prematurely declaring the Web application as unloaded, triggering the premature transmission of the signal to a remote server, from which it can then be mirrored back to the Web application.
+* An honest Web application could potentially see its signal suppressed indefinitely until it is unloaded.
+* The world trends towards immediate transactions. Financial institutions might face market pressure to complete orders ever faster, until a signal delayed by even just a few minutes, might not longer be used for fraud-prevention.
+
 ## Appendix II: Potential future extensions
 It **might** also be useful for Web applications to know:
 * Whether the capture is associated with [remote administration](https://en.wikipedia.org/wiki/Remote_administration) software or just a vanilla capture, likely associated with a video conferencing application or screenshotting tool.
