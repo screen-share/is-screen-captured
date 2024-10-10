@@ -129,8 +129,8 @@ We seek to protect financial institutions’ customers, not their employees. We 
 As mentioned in [alternative 3](#alternative-3-enterprise-policies-andor-employees), we cannot expect financial institutions to force-install extensions on their customers’ devices. But could we expect them to convince their customers to do so…?
 
 The author of this document would argue that:
-Mayn users would not end up installing such an extension; possibly most of them won’t.
-It would be detrimental to security on the Web, if users were taught that it’s legitimate for a website to plead with them to install an extension.
+* Many users would not end up installing such an extension; possibly most of them won’t.
+* It would be detrimental to security on the Web, if users were taught that it’s legitimate for a website to plead with them to install an extension.
 
 ## Appendix II: Potential future extensions
 It **might** also be useful for Web applications to know:
