@@ -138,7 +138,7 @@ Could we prevent Web applications from self-censoring using some mechanism other
 This approach faces very significant obstacles:
 * It is impossible for the user agent to truly determine when an application has been unloaded, because applications may span multiple cooperating origins. Cross-origin navigation of the top-level document between collaborating origins can fool the user agent into prematurely declaring the Web application as unloaded, triggering the premature transmission of the signal to a remote server, from which it can then be mirrored back to the Web application.
 * An honest Web application could potentially see its signal suppressed indefinitely until it is unloaded.
-* The world trends towards immediate transactions. Financial institutions might face market pressure to complete orders ever faster, until a signal delayed by even just a few minutes, might not longer be used for fraud-prevention.
+* The world trends towards immediate transactions. Financial institutions might face market pressure to complete orders ever faster, until a signal delayed by even just a few minutes, might no longer be used for fraud-prevention.
 
 ## Appendix II: Potential future extensions
 It **might** also be useful for Web applications to know:
