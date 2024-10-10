@@ -114,9 +114,9 @@ In other words - while it might solve the fraud problem, it would do so at the c
 
 ### Alternative 2: Warn the user
 We could introduce a mechanism for Web applications to declare themselves as sensitive, by specifying a new [boolean attribute](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attribute) called "sensitive" that applies to the `<head>`, `<body>` or `<html>` tags.
-Before initiating any new screen-capture sessions by another Web application, if that capture would affect a sensitive Web application, the browser would warn the user and possibly also ask them to reconfirm their intention.
-When the browser detects that a native application starts a screen-capture session, it could temporarily hide sensitive Web applications, warn the user and ask for additional confirmation before unhiding sensitive Web applications.
-When the browser is aware of an ongoing screen-capture, either by a native application or a Web application, it would warn the user and possibly ask them for additional confirmation, before loading sensitive Web applications, either through navigation, changing of the active tab, etc.
+* Before initiating any new screen-capture sessions by another Web application, if that capture would affect a sensitive Web application, the browser would warn the user and possibly also ask them to reconfirm their intention.
+* When the browser detects that a native application starts a screen-capture session, it could temporarily hide sensitive Web applications, warn the user and ask for additional confirmation before unhiding sensitive Web applications.
+* When the browser is aware of an ongoing screen-capture, either by a native application or a Web application, it would warn the user and possibly ask them for additional confirmation, before loading sensitive Web applications, either through navigation, changing of the active tab, etc.
 
 The main problem with this approach is that the scammer can dismiss such warnings or convince the user to ignore them. This is especially true when the scam is driven by [remote administration](https://en.wikipedia.org/wiki/Remote_administration) software, in which case the scammer can rearrange content on the screen to obscure crucial information from the victim.
 
