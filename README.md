@@ -67,10 +67,10 @@ Third, the proposed solution is relatively **simple to implement** on platforms 
 
 ### Abuse potential
 When a Web application detects that it is being captured, it can take action, and that action might not always be in the user’s interest. For example, applications might self-censor and prevent users from recording their interaction with the Web app, which would prevent a variety of use cases:
-Users might be prevented from recording tutorials.
-Users might be prevented from presenting slides without paying an extra fee.
-Users might be nudged or even forced to present using an affiliated video conferencing tool.
-Scam sites might limit users from seeking remote assistance from trusted relatives and friends. (Note that here, we are thinking of a different type of scams than those discussed earlier. Think for example of sites enticing users to divulge their credit card details.)
+* Users might be prevented from recording tutorials.
+* Users might be prevented from presenting slides without paying an extra fee.
+* Users might be nudged or even forced to present using an affiliated video conferencing tool.
+* Scam sites might limit users from seeking remote assistance from trusted relatives and friends. (Note that here, we are thinking of a different type of scams than those discussed earlier. Think for example of sites enticing users to divulge their credit card details.)
 
 To avoid such abuse, we propose to only expose the signal to allowlisted Web applications.
 
