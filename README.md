@@ -72,7 +72,7 @@ When a Web application detects that it is being captured, it can take action, an
 * Users might be nudged or even forced to present using an affiliated video conferencing tool.
 * Scam sites might limit users from seeking remote assistance from trusted relatives and friends. (Note that here, we are thinking of a different type of scams than those discussed earlier. Think for example of sites enticing users to divulge their credit card details.)
 
-To avoid such abuse, we propose to only expose the signal to allowlisted Web applications.
+To avoid such abuse, we propose to only expose the signal to **allowlisted** Web applications. Entry into the allowlist will be subject to accepting terms and conditions which will include the promise to not self-censor or curtail the user’s actions. Failure to abide by these terms and conditions will result in expulsion from the allowlist.
 
 ### Problems with allowlists
 An allowlist is used to mitigate the [abuse potential](#abuse-potential), because a better alternative was not found. We must nevertheless acknowledge the issues with such an approach.
